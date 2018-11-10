@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rahat.bot">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="ANDROID.PERMISSION.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.example.rahat.splashscreen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<activity android:name="com.example.rahat.splashscreen.WelcomeActivity"></activity>
+
+           <activity android:name="com.example.rahat.splashscreen.MainActivity_splash"></activity>
+    <activity android:name="com.example.rahat.splashscreen.WelcomeScreen"></activity>
+
+
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".Home">
+        </activity>
+        <activity android:name=".BotActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".CampusActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".ExamActivity" />
+        <activity android:name=".YearSelection" />
+        <activity android:name=".Addquestion" />
+        <activity android:name=".ProfilePageActivity"></activity>
+        <activity android:name=".SelectedActivity" />
+        <activity android:name=".Showcomment" />
+        <activity android:name=".Explaination"></activity>
+        <activity android:name=".MainActivity_cam" />
+        <activity android:name=".Elligibility"></activity>
+
+
+
+    </application>
+
+</manifest>
+
+
+
+

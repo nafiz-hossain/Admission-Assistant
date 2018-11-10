@@ -1,0 +1,29 @@
+package com.example.rahat.bot;
+
+/**
+ * Created by rahat on 9/30/17.
+ */
+
+
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.TextView;
+
+import com.example.rahat.bot.R;
+
+
+public class chat_rec extends RecyclerView.ViewHolder  {
+
+
+
+    TextView leftText,rightText;
+
+    public chat_rec(View itemView){
+        super(itemView);
+
+        leftText = (TextView)itemView.findViewById(R.id.leftText);
+        rightText = (TextView)itemView.findViewById(R.id.rightText);
+
+
+    }
+}

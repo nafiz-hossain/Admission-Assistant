@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "641101491410",
+    "firebase_url": "https://botfirebaseproject-37c64.firebaseio.com",
+    "project_id": "botfirebaseproject-37c64",
+    "storage_bucket": "botfirebaseproject-37c64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641101491410:android:d0ec1fb8738a35ea",
+        "android_client_info": {
+          "package_name": "com.example.rahat.bot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641101491410-rjsuhhtn46008lf39fe4o14hlg1023t3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rahat.bot",
+            "certificate_hash": "8b1c2853fe198ad1e7669dfe3c68348dd8185131"
+          }
+        },
+        {
+          "client_id": "641101491410-sdoce0s9pr5qqv5k6c635kgp2qgksrhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjA2ykfYzsWgdK3U6fCPOWOLagBjjCj1A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641101491410-sdoce0s9pr5qqv5k6c635kgp2qgksrhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

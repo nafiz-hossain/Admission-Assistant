@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="animated_background">#65828e</color>
+    <color name="animated_main_color">#ff9a00</color>
+    <color name="animated_secondary_color">#BDBDBD</color>
+    <color name="colorPrimary">#3f7fe9</color>
+    <color name="colorPrimaryDark">#0053b6</color>
+    <color name="colorAccent">#3f7fe9</color>
+
+    <color name="background_color">#3091ff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="text_selected">#888</color>
+    <color name="transparent_bg">#fff</color>
+    <color name="skyblue">#357fe6</color>
+    <color name="gray">#c9cacc</color>
+    <color name="darkBlue">#3b5998</color>
+    <color name="background">#000000</color>
+    <color name="bg_color">#e8edf3</color>
+    <color name="lightorange">#ff502d</color>
+    <color name="lightorangedark">#861600</color>
+
+    <color name="md_black_1000">#ff000000</color>
+
+
+
+
+
+    <color name="style_color_primary">#2d5d82</color>
+    <color name="style_color_primary_dark">#21425d</color>
+    <color name="style_color_accent">#01bcd5</color>
+
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+
+    <color name="text_like_counter">#2b5a83</color>
+
+    <color name="bg_comments">#ffffff</color>
+
+
+
+
+</resources>

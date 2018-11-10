@@ -1,0 +1,254 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.jai.login_screens.LoginActivity">
+
+    <!-- Login progress -->
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/radial_gradient_bkg">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Point Table"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:paddingBottom="40dp"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/banglainput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Place Your Bangla Grade"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="19dp"
+                    android:gravity="center_horizontal"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/white_transparent_2_bkg"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="8dp" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/englishinput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Place Your English Grade"
+
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="19dp"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/white_transparent_2_bkg"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="8dp" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/mathinput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Place Your Math Grade"
+
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="19dp"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/white_transparent_2_bkg"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="8dp" />
+
+            </android.support.design.widget.TextInputLayout><android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/physicsinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Place Your Physics Grade"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:gravity="center_horizontal"
+                android:textSize="19dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/white_transparent_2_bkg"
+                android:textColorHint="#fff"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:padding="8dp" />
+
+        </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/chemestryinput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Place Your Chemistry Grade"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="19dp"
+
+                    android:gravity="center_horizontal"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/white_transparent_2_bkg"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="8dp" />
+
+            </android.support.design.widget.TextInputLayout><android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/biologyinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Place Your Biology Grade"
+                android:paddingBottom="30dp"
+
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="19dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/white_transparent_2_bkg"
+                android:textColorHint="#fff"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:padding="8dp" />
+
+        </android.support.design.widget.TextInputLayout><android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/sscgpainput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SSC Grade"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="19dp"
+
+                android:gravity="center_horizontal"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/white_transparent_2_bkg"
+                android:textColorHint="#fff"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:padding="8dp" />
+
+        </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/hscgpainput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="HSC Grade"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="19dp"
+
+                    android:gravity="center_horizontal"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/white_transparent_2_bkg"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="8dp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/Submitbutton"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:text="Submit"
+                android:textStyle="bold"
+                android:background="@drawable/white_border_transparent_bkg"
+                android:textColor="#fff"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
